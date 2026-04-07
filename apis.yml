@@ -11,10 +11,10 @@ apis:
       - url: https://www.constructionmonitor.com/data
         type: Documentation
     description: >-
-      Process large amounts of permit data through Construction Monitors API or
-      automated weekly data dumps via secure FTP. Both of these powerful tools
-      have been built with an understanding that handling millions of records
-      requires finely tuned technology. 
+      Process large amounts of permit data through Construction Monitors API or automated
+      weekly data dumps via secure FTP. Both of these powerful tools have been built
+      with an understanding that handling millions of records requires finely tuned
+      technology.
 name: Construction Monitor
 tags:
   - Construction
@@ -25,10 +25,9 @@ created: '2025-02-08'
 modified: '2026-03-16'
 position: Consumer
 description: >-
-  Process large amounts of permit data through Construction Monitors API or
-  automated weekly data dumps via secure FTP. Both of these powerful tools have
-  been built with an understanding that handling millions of records requires
-  finely tuned technology. 
+  Process large amounts of permit data through Construction Monitors API or automated
+  weekly data dumps via secure FTP. Both of these powerful tools have been built with
+  an understanding that handling millions of records requires finely tuned technology.
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
