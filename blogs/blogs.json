@@ -1,0 +1,13 @@
+{
+  "repo": "construction-monitor",
+  "feeds": [
+    {
+      "source": "https://www.constructionmonitor.com/blog",
+      "feed_url": "https://blog.constructionmonitor.com/feed/",
+      "saved": 10,
+      "title": "Construction Monitor"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:25:59Z"
+}
