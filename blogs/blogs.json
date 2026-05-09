@@ -3,11 +3,11 @@
   "feeds": [
     {
       "source": "https://www.constructionmonitor.com/blog",
-      "feed_url": "https://blog.constructionmonitor.com/feed/",
-      "saved": 10,
-      "title": "Construction Monitor"
+      "feed_url": "https://www.constructionmonitor.com/blog/feed/",
+      "title": "Construction Monitor",
+      "saved": 0
     }
   ],
   "post_count": 10,
-  "fetched": "2026-05-03T23:25:59Z"
+  "fetched": "2026-05-09T20:17:51Z"
 }
