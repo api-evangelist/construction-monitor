@@ -15,7 +15,7 @@ created: '2025-02-08'
 modified: '2026-04-29'
 position: Consumer
 specificationVersion: '0.19'
-x-type: company
+kind: company
 description: >-
   Construction Monitor aggregates building-permit data from county and
   municipal sources nationwide and resells it as construction leads,
@@ -67,9 +67,9 @@ common:
     url: https://www.constructionmonitor.com/contact
   - type: Blog
     url: https://www.constructionmonitor.com/blog
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://www.constructionmonitor.com/privacy-policy
-  - type: Terms of Service
+  - type: TermsOfService
     url: https://www.constructionmonitor.com/terms-of-use
 maintainers:
   - FN: Kin Lane
