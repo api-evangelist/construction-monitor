@@ -59,6 +59,10 @@ apis:
       that prefer batch ingestion to live API polling. Suitable for
       warehousing millions of permits without operating a live integration.
 common:
+  - type: GitHubOrganization
+    url: https://github.com/Construction-Monitor
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/construction-monitor
   - type: Website
     url: https://www.constructionmonitor.com
   - type: Data Products
