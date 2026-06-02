@@ -2,12 +2,17 @@
   "repo": "construction-monitor",
   "feeds": [
     {
-      "source": "https://www.constructionmonitor.com/blog",
+      "source": "https://www.constructionmonitor.com/blog/feed/",
       "feed_url": "https://www.constructionmonitor.com/blog/feed/",
-      "title": "Construction Monitor",
-      "saved": 1
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.constructionmonitor.com/contact",
+      "error": "HTTPError"
     }
   ],
   "post_count": 11,
-  "fetched": "2026-05-17T20:20:35Z"
+  "fetched": "2026-06-01T23:35:02Z"
 }
