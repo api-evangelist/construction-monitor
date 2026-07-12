@@ -59,6 +59,8 @@ apis:
       that prefer batch ingestion to live API polling. Suitable for
       warehousing millions of permits without operating a live integration.
 common:
+  - type: DomainSecurity
+    url: security/construction-monitor-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/Construction-Monitor
   - type: LinkedIn
