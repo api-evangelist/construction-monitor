@@ -89,6 +89,12 @@ apis:
       that prefer batch ingestion to live API polling. Suitable for
       warehousing millions of permits without operating a live integration.
 common:
+  - type: Plans
+    url: plans/construction-monitor-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/construction-monitor-rate-limits.yml
+  - type: FinOps
+    url: finops/construction-monitor-finops.yml
   - type: DomainSecurity
     url: security/construction-monitor-domain-security.yml
   - type: GitHubOrganization
