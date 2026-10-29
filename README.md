@@ -1,4 +1,4 @@
-# Construction Monitor (construction-monitor)
+# Construction Monitor
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,56 +66,104 @@
 
 Construction Monitor aggregates building-permit data from county and municipal sources nationwide and resells it as construction leads, contractor intelligence, and historical permit research. Programmatic access is offered through a REST + JSON API backed by Elasticsearch and a weekly data-dump option delivered over secure FTP. Both channels are account-managed; partners receive credentials and a documented endpoint contract directly from Construction Monitor.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/construction-monitor/refs/heads/main/apis.yml)
+**Areas:** Construction · Contractors · Lead Generation · Permits · Real Estate
 
-## Scope
+## Construction Monitor on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Construction Monitor is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/construction-monitor/](https://apis.io/providers/construction-monitor/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (2)
 
-- Construction
-- Contractors
-- Lead Generation
-- Permits
-- Real Estate
+- [Construction Monitor Permits API](https://apis.io/apis/construction-monitor/permits-api/) — REST + JSON service backed by Elasticsearch that lets partners search building permits, retrieve full permit detail records, and pull delta updates on a…
+- [Construction Monitor Weekly Data Dump (SFTP)](https://apis.io/apis/construction-monitor/weekly-ftp/) — Weekly bulk delivery of permit records over secure FTP for partners that prefer batch ingestion to live API polling. Suitable for warehousing millions of…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2025-02-08
-- **Modified:** 2026-04-29
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### Construction Monitor Permits API
-REST + JSON service backed by Elasticsearch that lets partners search building permits, retrieve full permit detail records, and pull delta updates on a polling schedule. Authentication is handled with a simple API-key scheme provisioned per customer. Used to drive lead-generation pipelines, populate CRM and BI tools, and power downstream construction analytics.
+Authentication, trust centre, and vulnerability disclosure.
 
-**Human URL:** [https://www.constructionmonitor.com/data](https://www.constructionmonitor.com/data)
+- [Construction Monitor Domain Security](https://apis.io/security/construction-monitor/construction-monitor-domain-security/)
 
-#### Tags
+#### Plans and pricing (1)
 
-- Elasticsearch, JSON, Permits, REST
+Published plans, tiers and prices.
 
-### Construction Monitor Weekly Data Dump (SFTP)
-Weekly bulk delivery of permit records over secure FTP for partners that prefer batch ingestion to live API polling. Suitable for warehousing millions of permits without operating a live integration.
+- [Construction Monitor Plans Pricing](https://apis.io/plans/construction-monitor/construction-monitor-plans-pricing/)
 
-#### Tags
+#### Rate limits (1)
 
-- Bulk, Data Dump, Permits, SFTP
+Published request limits.
 
-## Common Properties
+- [Construction Monitor Rate Limits](https://apis.io/rate-limits/construction-monitor/construction-monitor-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Construction Monitor Finops](https://apis.io/finops/construction-monitor/construction-monitor-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.constructionmonitor.com)
-- [Data Products](https://www.constructionmonitor.com/data)
-- [Contact / API Access](https://www.constructionmonitor.com/contact)
 - [Blog](https://www.constructionmonitor.com/blog)
-- [Privacy Policy](https://www.constructionmonitor.com/privacy-policy)
-- [Terms of Service](https://www.constructionmonitor.com/terms-of-use)
+- [Terms of service](https://www.constructionmonitor.com/terms-of-use)
+- [Privacy policy](https://www.constructionmonitor.com/privacy-policy)
+- [GitHub](https://github.com/Construction-Monitor)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 9.7** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/construction-monitor/](https://apis.io/providers/construction-monitor/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Construction Monitor: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/construction-monitor/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
